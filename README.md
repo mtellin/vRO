@@ -14,3 +14,4 @@
 [Integrating with vSphere Overview](http://vmwarelearning.com/28q/integrating-with-vsphere-overview/)  
 
 #### Intermediate
+[Advanced Orchestrator with Joerg Lew](https://www.youtube.com/watch?v=G_SPn5tOe-E)
