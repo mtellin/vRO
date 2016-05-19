@@ -11,7 +11,9 @@
 # configuration tasks of a Cisco switch via SSH
 #----------------------------------------------
 #===============REQUIREMENTS===================
-#
+# An attribute with a name of password and type
+# Secure String should be created with the
+# appropriate password.
 #----------------------------------------------
 
 session = new SSHSession(hostName, username, port);
