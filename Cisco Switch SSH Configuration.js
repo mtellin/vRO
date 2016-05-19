@@ -14,7 +14,9 @@ Configuring Cisco Switch Orchestrator Workflow
 ===============REQUIREMENTS===================
  An attribute with a name of password and type
  Secure String should be created with the
- appropriate password.
+ appropriate password. Attributes for hostName
+ and username with type string should also
+ be created.
 ----------------------------------------------
 */
 
