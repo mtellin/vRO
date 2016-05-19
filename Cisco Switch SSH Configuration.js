@@ -18,12 +18,10 @@ Configuring Cisco Switch Orchestrator Workflow
 ----------------------------------------------
 */
 
-session = new SSHSession(hostName, username, port);
+session = new SSHSession(hostName, username);
 session.connectWithPassword(password);
 
 session.executeCommand("echo `date` >> /tmp/date1.txt", true);
-output = session.getOutput();
-System.log("Output: '" + output + "'");
 session.executeCommand("echo `date` >> /tmp/date2.txt", true);
 
 session.disconnect();
